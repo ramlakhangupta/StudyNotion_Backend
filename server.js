@@ -25,8 +25,7 @@ app.use(express.json()); // to parse json body
 app.use(cookieParser());
 app.use(
     cors({
-        // origin: 'http://localhost:5173', // frontend link
-        origin: "*",
+         origin: "https://study-notion-frontend-git-main-ramlakhan-guptas-projects.vercel.app",
         credentials: true
     })
 );
