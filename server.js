@@ -25,7 +25,7 @@ app.use(express.json()); // to parse json body
 app.use(cookieParser());
 app.use(
     cors({
-         origin: "https://study-notion-frontend-git-main-ramlakhan-guptas-projects.vercel.app",
+         origin: ["https://study-notion-frontend-alpha-ten.vercel.app"],
         credentials: true
     })
 );
